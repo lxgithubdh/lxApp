@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dip"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:textSize="20sp"
+            android:text="在" >
+        </TextView>
+
+        <Spinner android:id="@+id/location"
+            android:layout_width="120dip"
+            android:layout_height="50dip"
+            android:prompt="@string/location_prompt"
+            android:entries="@array/nodes"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:textSize="20sp"
+            android:text="找" >
+        </TextView>
+
+        <AutoCompleteTextView
+            android:id="@+id/searchkey"
+            android:layout_width="0dip"
+            android:layout_height="50dip"
+            android:layout_weight="0.88"
+            android:hint="感兴趣" />
+        
+        <Button
+            android:id="@+id/search"
+            android:layout_width="wrap_content"
+            android:layout_height="50dip"
+            android:text="@string/search"
+            android:background="@drawable/button_style" />
+
+        
+    </LinearLayout>
+
+    <fragment
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        class="com.baidu.mapapi.map.SupportMapFragment" />
+
+</LinearLayout>

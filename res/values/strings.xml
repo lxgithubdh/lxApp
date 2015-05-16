@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">导航App</string>
+    <string name="location">定位功能</string>
+    <string name="poisearch">周边搜索</string>
+    <string name="bussearch">公交查询</string>
+    <string name="routeguide">路线规划</string>
+    <string name="setting">设置</string>
+	<string name="download">下载</string>
+	<string name="title_location_activity">定位</string>
+	<string name="title_poi_activity">找周边</string>
+	<string name="title_bus_activity">公交线路查询</string>
+	<string name="title_route_activity">路线规划</string>
+	<string name="title_setting_activity">系统设置</string>
+	<string name="title_download_activity">地图下载</string>
+	<string name="input_bus_line">请输入线路：</string>
+	<string name="drive">驾车</string>
+	<string name="transit">公交</string>
+	<string name="walk">步行</string>
+	<string name="search">搜索</string>
+	<string name="location_prompt">选择位置：</string>
+	
+	<string-array name="nodes">
+	    <item>升升公寓</item>
+	    <item>南湖校区</item>
+	    <item>鉴湖校区</item>
+	    <item>西院</item>
+	    <item>东院</item>
+	    <item>余家头校区</item>
+	    <item>当前位置</item>
+	</string-array>
+	
+    
+</resources>
