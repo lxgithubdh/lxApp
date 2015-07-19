@@ -9,14 +9,14 @@ import com.baidu.mapapi.map.UiSettings;
 import com.baidu.mapapi.model.LatLng;
 
 /**
-*全局数据
+*city default
 */
 public class Globals {
 
 	/**
-	 * 默认城市
+	 * 脛卢脠脧鲁脟脢脨
 	 */
-	public static final String CITY = "武汉";
+	public static final String CITY = "脦盲潞潞";
 	public static boolean[] MapStatuArr={true,true,true,true,false,false};
 	
 	
