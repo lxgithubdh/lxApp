@@ -13,6 +13,9 @@ import com.baidu.mapapi.model.LatLng;
 */
 public class Globals {
 
+	/**
+	 * Ä¬ÈÏ³ÇÊÐ
+	 */
 	public static final String CITY = "Îäºº";
 	public static boolean[] MapStatuArr={true,true,true,true,false,false};
 	
