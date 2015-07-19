@@ -8,6 +8,9 @@ import com.baidu.mapapi.map.MapStatusUpdateFactory;
 import com.baidu.mapapi.map.UiSettings;
 import com.baidu.mapapi.model.LatLng;
 
+/**
+*全局数据
+*/
 public class Globals {
 
 	public static final String CITY = "武汉";
